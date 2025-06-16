@@ -25,17 +25,28 @@ To do that, download the release version from [releases](https://github.com/Deta
 
 ## CLI Arguments Reference
 For the mod itself (passed in to game executable):
+
 `--host` - defines the instance as host
+
 `--client`, `--join` - defines the instance as client
+
 `--autoload` - loads the game in slot 0 (on host)
+
 `--saveslot <slot>` - loads the game in specified slot (on host). Valid slots are 0-4.
+
 `--adjust-window` - will adjust the window size to fit both screens
+
 `--left-offset <offset>` - sets the offset from the left edge of the screen for the host instance, as well as the gap between instances.
 
+
 For the `createGoldbergConfig.ps1` script:
+
 `-Mode <mode>` - defines the mode of the script. Valid modes are `host` and `client`. This will provide defaults for IDs and names.
+
 `-SteamId <steam64>` - defines the SteamID for the instance. Must be a valid SteamID.
+
 `-Name <name>` - defines the name for the instance.
+
 
 ## Troubleshooting
 ### Where are my saves?
